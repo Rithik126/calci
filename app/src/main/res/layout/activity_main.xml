@@ -36,10 +36,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvdisplay" />
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="Clear"
         android:id="@+id/btnclear"
+        android:background="@drawable/btn"
+        android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@id/guideline"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toTopOf="@id/btn1"
@@ -53,9 +55,11 @@
         android:textSize="20sp"
         android:layout_marginVertical="8dp" />
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="("
+        android:background="@drawable/btn"
+        android:textColor="@color/white"
         android:id="@+id/btnleft"
         app:layout_constraintTop_toBottomOf="@id/guideline"
         android:textStyle="bold"
@@ -70,13 +74,15 @@
         app:layout_constraintVertical_weight="1"
         android:layout_marginVertical="8dp"/>
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:text=")"
         android:id="@+id/btnright"
         app:layout_constraintTop_toBottomOf="@id/guideline"
         android:textStyle="bold"
         android:textSize="20sp"
+        android:background="@drawable/btn"
+        android:textColor="@color/white"
         app:layout_constraintStart_toEndOf="@id/btnleft"
         android:layout_marginHorizontal="8dp"
         app:layout_constraintBottom_toTopOf="@id/btn3"
@@ -87,9 +93,11 @@
         app:layout_constraintVertical_weight="1"
         android:layout_marginVertical="8dp"/>
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="/"
+        android:background="@drawable/btn"
+        android:textColor="@color/white"
         android:id="@+id/btndivide"
         app:layout_constraintTop_toBottomOf="@id/guideline"
         app:layout_constraintBottom_toTopOf="@id/btn4"
@@ -104,10 +112,12 @@
         app:layout_constraintVertical_weight="1"
         app:layout_constraintEnd_toEndOf="parent"/>
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="1"
         android:id="@+id/btn1"
+        android:background="@drawable/btn"
+        android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@id/btnclear"
         app:layout_constraintBottom_toTopOf="@id/btn5"
         android:textStyle="bold"
@@ -121,10 +131,12 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginVertical="8dp"/>
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="2"
         android:id="@+id/btn2"
+        android:background="@drawable/btn"
+        android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@id/btnleft"
         app:layout_constraintBottom_toTopOf="@id/btn6"
         android:textStyle="bold"
@@ -138,10 +150,12 @@
         app:layout_constraintVertical_weight="1"
         android:layout_marginVertical="8dp"/>
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="3"
         android:id="@+id/btn3"
+        android:background="@drawable/btn"
+        android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@id/btnright"
         app:layout_constraintBottom_toTopOf="@id/btn7"
         android:textStyle="bold"
@@ -155,9 +169,11 @@
         app:layout_constraintVertical_weight="1"
         android:layout_marginVertical="8dp"/>
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="4"
+        android:background="@drawable/btn"
+        android:textColor="@color/white"
         android:id="@+id/btn4"
         app:layout_constraintTop_toBottomOf="@id/btndivide"
         app:layout_constraintBottom_toTopOf="@id/btn8"
@@ -172,10 +188,12 @@
         app:layout_constraintVertical_weight="1"
         android:layout_marginVertical="8dp"/>
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="5"
         android:id="@+id/btn5"
+        android:background="@drawable/btn"
+        android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@id/btn1"
         app:layout_constraintBottom_toTopOf="@id/btn9"
         android:textStyle="bold"
@@ -189,7 +207,7 @@
         app:layout_constraintVertical_weight="1"
         android:layout_marginVertical="8dp"/>
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="6"
         android:id="@+id/btn6"
@@ -197,6 +215,8 @@
         app:layout_constraintBottom_toTopOf="@id/btn10"
         android:textStyle="bold"
         android:textSize="20sp"
+        android:background="@drawable/btn"
+        android:textColor="@color/white"
         app:layout_constraintStart_toEndOf="@id/btn5"
         android:layout_marginHorizontal="8dp"
         app:layout_constraintEnd_toStartOf="@id/btn7"
@@ -207,10 +227,12 @@
         android:layout_marginVertical="8dp"/>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="7"
         android:id="@+id/btn7"
+        android:background="@drawable/btn"
+        android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@id/btn3"
         app:layout_constraintBottom_toTopOf="@id/btnplus"
         android:textStyle="bold"
@@ -224,10 +246,12 @@
         app:layout_constraintVertical_weight="1"
         android:layout_marginVertical="8dp"/>
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="8"
         android:id="@+id/btn8"
+        android:background="@drawable/btn"
+        android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@id/btn4"
         app:layout_constraintBottom_toTopOf="@id/btnminus"
         android:textStyle="bold"
@@ -241,10 +265,12 @@
         app:layout_constraintVertical_weight="1"
         android:layout_marginVertical="8dp"/>
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="9"
         android:id="@+id/btn9"
+        android:background="@drawable/btn"
+        android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@id/btn5"
         app:layout_constraintBottom_toTopOf="@id/btnmulti"
         android:textStyle="bold"
@@ -258,10 +284,12 @@
         app:layout_constraintVertical_weight="1"
         android:layout_marginVertical="8dp"/>
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="0"
         android:id="@+id/btn10"
+        android:background="@drawable/btn"
+        android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@id/btn6"
         app:layout_constraintBottom_toTopOf="@id/btndot"
         android:textStyle="bold"
@@ -275,10 +303,12 @@
         app:layout_constraintVertical_weight="1"
         android:layout_marginVertical="8dp"/>
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="+"
         android:id="@+id/btnplus"
+        android:background="@drawable/btn"
+        android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@id/btn7"
         app:layout_constraintBottom_toTopOf="@id/btnmodulus"
         android:textStyle="bold"
@@ -292,10 +322,12 @@
         app:layout_constraintVertical_weight="1"
         android:layout_marginVertical="8dp"/>
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="-"
         android:id="@+id/btnminus"
+        android:background="@drawable/btn"
+        android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@id/btn8"
         app:layout_constraintBottom_toTopOf="@id/btnequal"
         android:textStyle="bold"
@@ -309,10 +341,12 @@
         app:layout_constraintVertical_weight="1"
         android:layout_marginVertical="8dp"/>
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="*"
         android:id="@+id/btnmulti"
+        android:background="@drawable/btn"
+        android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@id/btn9"
         android:textStyle="bold"
         android:textSize="20sp"
@@ -326,10 +360,12 @@
         app:layout_constraintVertical_weight="1"
         android:layout_marginVertical="8dp"/>
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="."
         android:id="@+id/btndot"
+        android:background="@drawable/btn"
+        android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@id/btn10"
         android:textStyle="bold"
         android:textSize="20sp"
@@ -343,10 +379,12 @@
         app:layout_constraintVertical_weight="1"
         android:layout_marginVertical="8dp"/>
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="c"
         android:id="@+id/btnmodulus"
+        android:background="@drawable/btn"
+        android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@id/btnplus"
         android:textStyle="bold"
         android:textSize="20sp"
@@ -361,10 +399,12 @@
         android:layout_marginVertical="8dp"/>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="="
         android:id="@+id/btnequal"
+        android:background="@drawable/btn"
+        android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@id/btnminus"
         android:textStyle="bold"
         android:textSize="20sp"
